@@ -17,7 +17,7 @@ function getUserList(onSuccess) {
         }
     }
 
-    httpRequest.open("GET", "http://www.filltext.com/?rows=24&firstName={firstName}&lastName={lastName}&country={country}&phone={phone|format}&email={email}&city={city}&pretty=true", true);
+    httpRequest.open("GET", "https://www.filltext.com/?rows=24&firstName={firstName}&lastName={lastName}&country={country}&phone={phone|format}&email={email}&city={city}&pretty=true", true);
     httpRequest.send();   
 }
 
